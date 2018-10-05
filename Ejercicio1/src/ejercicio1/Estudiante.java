@@ -9,13 +9,10 @@ package ejercicio1;
  *
  * @author David Pardo
  */
-public class Ejercicio1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class Estudiante {
+    int edad;
+    int cedula;
+    String nombre="Estudiante";
+    String[] sexoA = {"H","M"};
+    String sexo=sexoA[(int)(Math.random()* 1 + 0)];
 }
